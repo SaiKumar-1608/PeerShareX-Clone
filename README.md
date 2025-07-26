@@ -75,7 +75,7 @@ PeerConnectX/
   Waits for a connection from a peer
   
   Receives the file and saves it locally (e.g., in a received_files/ folder)
-
+```
 2. 📤 client.py – File Sender
   This script connects to a server/peer and sends a selected file over TCP.
   
@@ -91,7 +91,7 @@ PeerConnectX/
   Sends the file in chunks over TCP and prints progress
   
   ⚠ Make sure the IP address entered matches the one of the machine running server.py.
-
+```
 3. utilities.py (Optional, if present)
   Contains helper functions for:
   
