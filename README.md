@@ -111,7 +111,6 @@ PeerConnectX/
   [Server] Receiving: project.zip
   [Server] File saved as ./received_files/project.zip
   [Client] File sent successfully!
-```
 
 ## Conclusion
   This project demonstrates the basic structure of a peer-to-peer system using raw socket programming. It's designed to help students and developers understand how P2P file sharing works under the hood and can be extended to support advanced features like:
