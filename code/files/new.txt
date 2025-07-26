@@ -1,0 +1,9 @@
+cvxopt
+image
+ipython
+pillow
+pytest-cov
+qpsolvers
+scipy
+sortedcontainers
+tensorflow
