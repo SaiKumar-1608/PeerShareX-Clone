@@ -68,7 +68,7 @@ PeerConnectX/
   How to Run:
   ```bash
     python server.py
-    ```
+
   🔹 What it does:
   Binds to a predefined port (e.g., 5000)
   
@@ -82,7 +82,7 @@ PeerConnectX/
   How to Run:
   ```bash
     python client.py
-    ```
+
   🔹 What it does:
   Prompts the user to enter the server's IP address (the receiver)
   
@@ -92,25 +92,22 @@ PeerConnectX/
   
   ⚠ Make sure the IP address entered matches the one of the machine running server.py.
 ```
-3. utilities.py (Optional, if present)
+3. utilities.py
   Contains helper functions for:
+    -File size formatting
+    -Chunk-wise file reading
+    -Progress bar display during transfer
   
-  File size formatting
-  
-  Chunk-wise file reading
-  
-  Progress bar display during transfer
-  
-  📁 Example File Transfer Output
-  text
-  Copy
-  Edit
-  [Server] Listening on port 5000...
-  [Client] Connected to 192.168.0.105
-  [Client] Sending: project.zip (2.3 MB)
-  [Server] Receiving: project.zip
-  [Server] File saved as ./received_files/project.zip
-  [Client] File sent successfully!
+       Example File Transfer Output
+      text
+      Copy
+      Edit
+      [Server] Listening on port 5000...
+      [Client] Connected to 192.168.0.105
+      [Client] Sending: project.zip (2.3 MB)
+      [Server] Receiving: project.zip
+      [Server] File saved as ./received_files/project.zip
+      [Client] File sent successfully!
 
 ## Conclusion
   This project demonstrates the basic structure of a peer-to-peer system using raw socket programming. It's designed to help students and developers understand how P2P file sharing works under the hood and can be extended to support advanced features like:
